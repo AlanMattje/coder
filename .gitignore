@@ -1,0 +1,7 @@
+/node_modules
+/.tmp.driveupload
+/package-lock.json
+/package.json
+/WEB.code-workspace
+/css/style.css.map
+
