@@ -229,41 +229,76 @@
   text-align: center;
 }
 
-H1 {
+* {
+  margin: 0%;
+  padding: 0%;
+  align-items: center;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 500px) {
+  #map iframe {
+    display: flex;
+    justify-content: start;
+    height: 200px;
+    width: 200px;
+  }
+  .footer div div {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+.faq {
+  text-align: center;
+}
+.faq div h1 {
   padding: 10px;
   background-color: orange;
   font-size: x-large;
   text-align: center;
   justify-content: center;
 }
-
-.faq {
+.faq div .preguntas section {
   text-align: center;
-}
-
-.preguntas section {
   margin: 10px;
   padding: 10px;
   color: black;
 }
 
-.somos {
+* {
+  margin: 0%;
+  padding: 0%;
+  align-items: center;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 500px) {
+  #map iframe {
+    display: flex;
+    justify-content: start;
+    height: 200px;
+    width: 200px;
+  }
+  .footer div div {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+main .somos {
   padding: 10px;
   background-color: orange;
   font-size: x-large;
   text-align: center;
   justify-content: center;
 }
-
-.nosotros p {
+main .nosotros p {
   font-size: x-large;
   padding: 2%;
   margin: 2%;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   text-align: center;
 }
-
-.valores div {
+main .valores div {
   padding: 4%;
   font-size: x-large;
   display: inline-flex;
@@ -271,7 +306,33 @@ H1 {
   justify-content: center;
 }
 
-.datos {
+* {
+  margin: 0%;
+  padding: 0%;
+  align-items: center;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 500px) {
+  #map iframe {
+    display: flex;
+    justify-content: start;
+    height: 200px;
+    width: 200px;
+  }
+  .footer div div {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+main section nav h1 {
+  padding: 10px;
+  background-color: orange;
+  font-size: x-large;
+  text-align: center;
+  justify-content: center;
+}
+main section nav .datos {
   margin: 20px;
   border: 1px solid black;
   padding: 20px;
@@ -279,14 +340,6 @@ H1 {
   display: inline-block;
   text-align: center;
   justify-content: center;
-}
-
-.enlaces {
-  padding: 10px;
-  text-align: center;
-  justify-content: center;
-  display: flex;
-  font-size: x-large;
 }
 
 .enlaces img {
@@ -315,7 +368,26 @@ H1 {
     width: 20%;
   }
 }
-.somos {
+* {
+  margin: 0%;
+  padding: 0%;
+  align-items: center;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 500px) {
+  #map iframe {
+    display: flex;
+    justify-content: start;
+    height: 200px;
+    width: 200px;
+  }
+  .footer div div {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+main section div .somos {
   padding: 10px;
   background-color: orange;
   font-size: x-large;

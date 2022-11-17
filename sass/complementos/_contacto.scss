@@ -1,20 +1,22 @@
-.datos{
-    margin: 20px;
-    border: 1px solid black;
-    padding: 20px;
-    border-color: black;
-    display: inline-block;
-    text-align: center;
-    justify-content: center;
-}
+@import '../base/_general.scss';
 
-
-.enlaces {
-    padding: 10px;
-    text-align: center;
-    justify-content: center;
-    display: flex;
-    font-size: x-large;
+main {
+    section{
+            nav{
+                h1 {
+                    @include titulos;
+                }
+                .datos {
+                    margin: 20px;
+                    border: 1px solid black;
+                    padding: 20px;
+                    border-color: black;
+                    display: inline-block;
+                    text-align: center;
+                    justify-content: center;
+                }
+            }
+    }
 }
 
 .enlaces img{

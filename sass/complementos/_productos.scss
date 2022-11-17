@@ -1,16 +1,18 @@
+@import '../base/_general.scss';
 
-.somos {
-    padding: 10px;
-    background-color: orange;
-    font-size: x-large;
-    text-align: center;
-    justify-content: center;
+main {
+    section {
+        div{
+            .somos {
+                @include titulos;
+            }
+        }
+    }
 }
 
 .product div img:hover{
         transform: scale(1.1);
 }
-
 
 .product{
     margin: 20px;
@@ -37,3 +39,4 @@
     text-align: center;
     justify-content: center;
 }
+

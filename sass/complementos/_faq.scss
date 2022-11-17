@@ -1,9 +1,20 @@
-.faq{
-    text-align: center;
-}
+@import '../base/_general.scss';
 
-.preguntas section{
-    margin: 10px;
-    padding: 10px;
-    color: black
+.faq{
+            text-align: center;
+    div {
+        h1 {
+            @include titulos;
+        }
+        
+        .preguntas{
+            section {
+                text-align: center;
+                margin: 10px;
+                padding: 10px;
+                color: black
+            }
+        }
+        
+    }
 }
