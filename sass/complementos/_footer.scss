@@ -23,6 +23,15 @@
     max-height: 40%;
 }
 
+.link a{
+    text-decoration: none;
+    background-color:  #e2ceb6;
+    color: black;
+    margin: 1%;
+    padding: 1%;
+    border: 1px solid black;
+  }
+
 .link {
     display: flex;
     flex-direction: column;
@@ -32,6 +41,11 @@
     margin-left: 5%;
     align-items:flex-start;
 }
+
+.link a:hover {
+    background-color:  #d19244;
+    color:black;
+  }
 
 #mediofooter{
     display: flex;
